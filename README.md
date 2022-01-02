@@ -14,3 +14,11 @@ npm install
 # Run the app
 npm start
 ```
+
+## To publish with electron-forge
+
+```bash
+npm install --save-dev @electron-forge/cli
+npx electron-forge import
+npm run make
+```
